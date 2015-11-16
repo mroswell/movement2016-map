@@ -3,69 +3,20 @@ body {
     font-family: "arial", "helvetica", sans-serif;
 }
 
-.entry {
-    float: left;
-    width: 60px;
-    border: solid black 1px;
-    height: 50px;
-    padding: 25px;
-    margin: 25px;
-    background: white;
-    line-height: 1.1;
-}
+
 
 #infobox {
-    /*float: left;*/
-    width: 570px;
-    border: solid grey 1px;
-    /*height: 50px;*/
-    padding: 20px;
-    /*margin: 25px;*/
-    /*margin: 0 0 20px 30px;*/
+    border: solid white 1px;
+    padding: 10px;
     margin:auto;
-    /*text-align: center;*/
-    background: white;
     line-height: 1.1;
+    box-shadow: 0 0 0 1px rgba(48,44,38,.08),0 2px 12px 0 rgba(48,44,38,.16);
+    background: white;
 }
-
-h2 {
-    font-size: 2em;
-    color: black;
-    text-transform: uppercase;
-    text-shadow: 2px 2px 20px red;
-}
-
-.custom-icon {
-    margin-right:4px;
-    border-radius:5px;
-    padding:3px 7px;
-    min-width:20px;
-    display:inline-block;
-    color:#fff;
-    text-decoration: none;
-}
-
-.icon-twitter {background-color: #00ACED;}
-.icon-facebook {background-color: #3B5998;}
-.icon-envelope {background-color:#c0c0c0;}
-.icon-2x {font-size: 1.7em;}
-
-.q0-6{fill:rgb(255,0,0)}
-.q1-6{fill:#FC8400;}
-.q2-6{fill:#FDC300;}
-.q3-6{fill:#FEF200;}
-.q4-6{fill:#82e0c3;}
-.q5-6{fill:#4EAB07;}
 
 .q0-7{fill: #A13528;}
 .q1-7{fill: #C26D6A;}
 .q2-7{fill: #CF9A92;}
-/*.q3-7{fill: #EED4D5;}*/
-.qformer3-7{fill: #DED9DD;}
-/*.q3-7 {fill: #A2679C;}*/
-/*.q3-7 {fill: #C197C0;}*/
-/*.q3-7 {fill: #CAADCA;}*/
-/*.q3-7 {fill: #CAADCA;}*/
 .q3-7 {fill: #F7EB06; /*#D0B9CF*/;}
 .q4-7{fill: #91A6C5;}
 .q5-7{fill: #607DA5;}
@@ -74,44 +25,4 @@ h2 {
 .q7-7{fill: #0f0312;}
 
 
-button.close {margin-top: -4px;margin-right: -8px; }
-
-#infobar {height:50px;}
-
-
-.my-legend .legend-title {
-    text-align: left;
-    margin-bottom: 8px;
-    font-weight: bold;
-    font-size: 90%;
-}
-.my-legend .legend-scale ul {
-    margin: 0;
-    padding: 0;
-    float: left;
-    list-style: none;
-}
-.my-legend .legend-scale ul li {
-    display: block;
-    float: left;
-    width: 60px;
-    margin-bottom: 6px;
-    text-align: center;
-    font-size: 80%;
-    list-style: none;
-}
-.my-legend ul.legend-labels li span {
-    display: block;
-    float: left;
-    height: 15px;
-    width: 60px;
-}
-.my-legend .legend-source {
-    font-size: 70%;
-    color: #999;
-    clear: both;
-}
-.my-legend a {
-    color: #777;
-}
 
